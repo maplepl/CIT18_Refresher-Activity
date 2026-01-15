@@ -1,1 +1,73 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Pineda Gunther Kaede</h1>
+      <p>Web Developer | Student</p>
+      <button id="darkModeBtn">Toggle Dark Mode</button>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am 20 years old, lived in Japan since elementary school, and am
+        currently studying in Baguio.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <p>University of cordilleras, BSIT, Graduating.</p>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <p>worked at japan as a aeon staff</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Byteon</h3>
+        <p>A guide for Hackathon begginers</p>
+        <a href="https://byteon.vercel.app/" target="_blank"> Visit Website </a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Information</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Pineda Gunther Kaede" />
+        <input
+          type="email"
+          id="email"
+          placeholder="Guntherkaede0108@gmail.com"
+        />
+        <button type="submit">Send</button>
+      </form>
+      <p id="formMessage"></p>
+    </section>
+
+    <footer>
+      <p>© 2026 Your Name</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
